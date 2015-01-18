@@ -13,24 +13,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="gac">
+      <UniqueIdentifier>{807f7417-d2ff-48b3-800a-138a9a7de816}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="gac\GacUI.cpp">
+      <Filter>gac</Filter>
+    </ClCompile>
+    <ClCompile Include="gac\GacUIReflection.cpp">
+      <Filter>gac</Filter>
+    </ClCompile>
+    <ClCompile Include="gac\GacUIWindows.cpp">
+      <Filter>gac</Filter>
+    </ClCompile>
+    <ClCompile Include="gac\Vlpp.cpp">
+      <Filter>gac</Filter>
+    </ClCompile>
+    <ClCompile Include="gac\VlppWorkflow.cpp">
+      <Filter>gac</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ClipboardViewer.cpp">
+    <ClCompile Include="ClipboardUtil.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gac\GacUI.h">
+      <Filter>gac</Filter>
+    </ClInclude>
+    <ClInclude Include="gac\GacUIReflection.h">
+      <Filter>gac</Filter>
+    </ClInclude>
+    <ClInclude Include="gac\GacUIWindows.h">
+      <Filter>gac</Filter>
+    </ClInclude>
+    <ClInclude Include="gac\Vlpp.h">
+      <Filter>gac</Filter>
+    </ClInclude>
+    <ClInclude Include="gac\VlppWorkflow.h">
+      <Filter>gac</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipboardUtil.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClipboardViewer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="iconApp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
